@@ -8,3 +8,12 @@ img{
     text-align: center;
     border-radius:5px;
 }
+.addCountry{
+    width: 150px;
+    background-color: goldenrod;
+    height: 30px;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+    cursor: pointer;
+
+}

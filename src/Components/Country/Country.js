@@ -10,7 +10,7 @@ const Country = (props) => {
             <h4>{name}</h4>
             <p>Population: {population}</p>
             <p><small>Region: {region}</small></p>
-            <button onClick={()=>handleAddCountry(props.country)}>Add Country</button>
+            <button onClick={()=>handleAddCountry(props.country)} className="addCountry">Add Country</button>
         </div>
     );
 };
